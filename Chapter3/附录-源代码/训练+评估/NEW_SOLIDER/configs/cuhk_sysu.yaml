@@ -1,0 +1,10 @@
+OUTPUT_DIR: "./exp_cuhk"
+INPUT:
+  DATASET: "CUHK-SYSU"
+  DATA_ROOT: "/public/home/G19830015/Group/CSJ/data/cuhk_sysu/cuhk_sysu"
+SOLVER:
+  MAX_EPOCHS: 25
+MODEL:
+  LOSS:
+    LUT_SIZE: 5532
+    CQ_SIZE: 5000

@@ -1,0 +1,11 @@
+OUTPUT_DIR: "./exp_prw"
+INPUT:
+  DATASET: "PRW"
+  DATA_ROOT: "/public/home/G19830015/Group/CSJ/data/PRW"
+SOLVER:
+  MAX_EPOCHS: 25
+#  MAX_EPOCHS: 18
+MODEL:
+  LOSS:
+    LUT_SIZE: 482
+    CQ_SIZE: 500
